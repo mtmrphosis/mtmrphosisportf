@@ -134,8 +134,12 @@ body aside {
           flex-direction: column;
   gap: 30px;
 }
+body aside section:first-child {
+  border-radius: 30px;
+}
 body aside section:first-child a img {
-  width: 500px;
+  margin: 0;
+  width: 520px;
   border-radius: 30px;
 }
 body aside section:last-child {
@@ -155,6 +159,15 @@ body aside section:last-child div {
 body aside section:last-child div:first-child img {
   width: 235px;
 }
-body aside section:last-child div:last-child img {
+body aside section:last-child div:last-child {
   width: 235px;
+}
+body aside section:last-child div:last-child img {
+  border-radius: 30px;
+  width: 235px;
+}
+body aside section:last-child div:last-child img:hover {
+  opacity: 50%;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
 }
