@@ -609,3 +609,194 @@ body aside section:last-child div:last-child img:hover {
     width: 160px;
   }
 }
+@media (max-width: 390px) {
+  body header {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  body header nav {
+    width: 280px;
+    margin-left: 12%;
+  }
+  body main {
+    margin-right: 5%;
+    margin-left: 5%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body main article section {
+    height: 395px;
+    width: 300px;
+  }
+  body main article section img {
+    height: 130px;
+  }
+  body main article section p {
+    font-size: 22px;
+  }
+  body main article section h1 {
+    font-size: 37px;
+  }
+  body main article section div {
+    font-size: 18px;
+  }
+  body main article section button {
+    font-size: 14px;
+    width: 80px;
+    height: 25px;
+  }
+  body main aside {
+    gap: 30px;
+  }
+  body main aside section:first-child a img {
+    width: 315px;
+  }
+  body main aside section:last-child {
+    width: 150px;
+    gap: 40px;
+  }
+  body main aside section:last-child div:first-child {
+    height: 135px;
+  }
+  body main aside section:last-child div:first-child img {
+    width: 135px;
+  }
+  body main aside section:last-child div:last-child {
+    height: 135px;
+  }
+  body main aside section:last-child div:last-child img {
+    width: 135px;
+  }
+}
+@media (max-width: 350px) {
+  body header {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  body header nav {
+    width: 220px;
+    margin-left: 17%;
+  }
+  body header nav a {
+    padding: 0 10px 0 10px;
+  }
+  body main {
+    margin-right: 10%;
+    margin-left: 10%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body main article section {
+    height: 395px;
+    width: 250px;
+  }
+  body main article section img {
+    height: 100px;
+  }
+  body main article section p {
+    font-size: 20px;
+  }
+  body main article section h1 {
+    font-size: 35px;
+  }
+  body main article section div {
+    width: 90%;
+    font-size: 16px;
+  }
+  body main article section button {
+    font-size: 12px;
+    width: 60px;
+    height: 20px;
+  }
+  body main aside {
+    gap: 30px;
+  }
+  body main aside section:first-child a img {
+    width: 265px;
+  }
+  body main aside section:last-child {
+    width: 150px;
+    gap: 40px;
+  }
+  body main aside section:last-child div:first-child {
+    height: 110px;
+  }
+  body main aside section:last-child div:first-child img {
+    width: 110px;
+  }
+  body main aside section:last-child div:last-child {
+    height: 110px;
+  }
+  body main aside section:last-child div:last-child img {
+    width: 110px;
+  }
+}
+@media (max-width: 300px) {
+  body header {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  body header nav {
+    width: 220px;
+    margin-left: 12%;
+  }
+  body header nav a {
+    padding: 0 10px 0 10px;
+  }
+  body main {
+    margin-right: 10%;
+    margin-left: 4%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body main article section {
+    height: 395px;
+    width: 250px;
+  }
+  body main article section img {
+    height: 100px;
+  }
+  body main article section p {
+    font-size: 20px;
+  }
+  body main article section h1 {
+    font-size: 35px;
+  }
+  body main article section div {
+    width: 90%;
+    font-size: 16px;
+  }
+  body main article section button {
+    font-size: 12px;
+    width: 60px;
+    height: 20px;
+  }
+  body main aside {
+    gap: 30px;
+  }
+  body main aside section:first-child a img {
+    width: 265px;
+  }
+  body main aside section:last-child {
+    width: 150px;
+    gap: 40px;
+  }
+  body main aside section:last-child div:first-child {
+    height: 110px;
+  }
+  body main aside section:last-child div:first-child img {
+    width: 110px;
+  }
+  body main aside section:last-child div:last-child {
+    height: 110px;
+  }
+  body main aside section:last-child div:last-child img {
+    width: 110px;
+  }
+}

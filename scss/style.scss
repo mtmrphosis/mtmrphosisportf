@@ -849,3 +849,280 @@ body {
         }
     }
 }
+
+@media (max-width: 390px) {
+    body {
+
+
+        header {
+            margin-top: 30px;
+            margin-bottom: 30px;
+
+            nav {
+                width: 280px;
+                margin-left: 12%;
+            }
+        }
+
+        main {
+            margin-right: 5%;
+            margin-left: 5%;
+            flex-direction: column;
+
+            article {
+                section {
+                    height: 395px;
+                    width: 300px;
+
+                    img {
+                        height: 130px;
+                    }
+
+                    p {
+                        font-size: 22px;
+                    }
+
+                    h1 {
+                        font-size: 37px;
+                    }
+
+                    div {
+                        font-size: 18px;
+                    }
+
+                    button {
+                        font-size: 14px;
+                        width: 80px;
+                        height: 25px;
+                    }
+                }
+            }
+
+            aside {
+                gap: 30px;
+
+                section {
+
+                    &:first-child {
+                        a {
+                            img {
+                                width: 315px;
+                            }
+                        }
+                    }
+
+                    &:last-child {
+                        width: 150px;
+                        gap: 40px;
+
+                        div {
+                            &:first-child {
+                                height: 135px;
+
+                                img {
+                                    width: 135px;
+                                }
+                            }
+
+                            &:last-child {
+                                height: 135px;
+
+                                img {
+                                    width: 135px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 350px) {
+    body {
+
+
+        header {
+            margin-top: 30px;
+            margin-bottom: 30px;
+
+            nav {
+                width: 220px;
+                margin-left: 17%;
+
+                a {
+                    padding: 0 10px 0 10px;
+                }
+            }
+        }
+
+        main {
+            margin-right: 10%;
+            margin-left: 10%;
+            flex-direction: column;
+
+            article {
+                section {
+                    height: 395px;
+                    width: 250px;
+
+                    img {
+                        height: 100px;
+                    }
+
+                    p {
+                        font-size: 20px;
+                    }
+
+                    h1 {
+                        font-size: 35px;
+                    }
+
+                    div {
+                        width: 90%;
+                        font-size: 16px;
+                    }
+
+                    button {
+                        font-size: 12px;
+                        width: 60px;
+                        height: 20px;
+                    }
+                }
+            }
+
+            aside {
+                gap: 30px;
+
+                section {
+
+                    &:first-child {
+                        a {
+                            img {
+                                width: 265px;
+                            }
+                        }
+                    }
+
+                    &:last-child {
+                        width: 150px;
+                        gap: 40px;
+
+                        div {
+                            &:first-child {
+                                height: 110px;
+
+                                img {
+                                    width: 110px;
+                                }
+                            }
+
+                            &:last-child {
+                                height: 110px;
+
+                                img {
+                                    width: 110px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 300px) {
+    body {
+
+
+        header {
+            margin-top: 30px;
+            margin-bottom: 30px;
+
+            nav {
+                width: 220px;
+                margin-left: 12%;
+
+                a {
+                    padding: 0 10px 0 10px;
+                }
+            }
+        }
+
+        main {
+            margin-right: 10%;
+            margin-left: 4%;
+            flex-direction: column;
+
+            article {
+                section {
+                    height: 395px;
+                    width: 250px;
+
+                    img {
+                        height: 100px;
+                    }
+
+                    p {
+                        font-size: 20px;
+                    }
+
+                    h1 {
+                        font-size: 35px;
+                    }
+
+                    div {
+                        width: 90%;
+                        font-size: 16px;
+                    }
+
+                    button {
+                        font-size: 12px;
+                        width: 60px;
+                        height: 20px;
+                    }
+                }
+            }
+
+            aside {
+                gap: 30px;
+
+                section {
+
+                    &:first-child {
+                        a {
+                            img {
+                                width: 265px;
+                            }
+                        }
+                    }
+
+                    &:last-child {
+                        width: 150px;
+                        gap: 40px;
+
+                        div {
+                            &:first-child {
+                                height: 110px;
+
+                                img {
+                                    width: 110px;
+                                }
+                            }
+
+                            &:last-child {
+                                height: 110px;
+
+                                img {
+                                    width: 110px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
