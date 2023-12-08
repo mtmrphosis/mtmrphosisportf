@@ -548,3 +548,64 @@ body aside section:last-child div:last-child img:hover {
     width: 200px;
   }
 }
+@media (max-width: 400px) {
+  body header {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  body header nav {
+    width: 300px;
+    margin-left: 10%;
+  }
+  body main {
+    margin-right: 2%;
+    margin-left: 2%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body main article section {
+    height: 395px;
+    width: 350px;
+  }
+  body main article section img {
+    height: 130px;
+  }
+  body main article section p {
+    font-size: 22px;
+  }
+  body main article section h1 {
+    font-size: 37px;
+  }
+  body main article section div {
+    font-size: 18px;
+  }
+  body main article section button {
+    font-size: 14px;
+    width: 80px;
+    height: 25px;
+  }
+  body main aside {
+    gap: 30px;
+  }
+  body main aside section:first-child a img {
+    width: 365px;
+  }
+  body main aside section:last-child {
+    width: 150px;
+    gap: 40px;
+  }
+  body main aside section:last-child div:first-child {
+    height: 150px;
+  }
+  body main aside section:last-child div:first-child img {
+    width: 160px;
+  }
+  body main aside section:last-child div:last-child {
+    height: 150px;
+  }
+  body main aside section:last-child div:last-child img {
+    width: 160px;
+  }
+}
